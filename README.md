@@ -151,7 +151,7 @@ POST /products
 
 - **`500 Bad Request`**: If any required field is missing or invalid.
 
-   ```json
+ ```json
 {
     "statusCode": 500,
     "route": "/products",
