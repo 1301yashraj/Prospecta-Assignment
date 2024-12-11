@@ -1,4 +1,5 @@
- ###### The **Store API** is a comprehensive RESTful service designed to manage product data efficiently. It provides endpoints for retrieving product information by category, adding new products with flexible category management options, and converting various file formats into CSV. This API is tailored for seamless integration into e-commerce or inventory management systems, offering high flexibility and robust error handling.
+
+###### The **Store API** is a comprehensive RESTful service designed to manage product data efficiently. It provides endpoints for retrieving product information by category, adding new products with flexible category management options, and converting various file formats into CSV. This API is tailored for seamless integration into e-commerce or inventory management systems, offering high flexibility and robust error handling.
 ---
 
 ## API Documentation
@@ -149,7 +150,8 @@ POST /products
 - **`404 Not Found`**: If the category does not exist and `createNewCategory` is `false`.
 
 - **`500 Bad Request`**: If any required field is missing or invalid.
-   ```JSON
+
+   ```json
 {
     "statusCode": 500,
     "route": "/products",
